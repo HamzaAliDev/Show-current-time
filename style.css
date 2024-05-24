@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    height: 60px;
+    background-color: rgb(6, 6, 62);
+    color: white;
+}
+
+main{
+    height: calc(100vh - 160px);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 1.2rem;
+}
+header{
+    height: 100px;
+    padding: 35px 0px 0px 0px;
+}
+#header-section{
+    margin-top: 8px;
+    font-size: 1rem;
+    opacity: 0.5;
+}
